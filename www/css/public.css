@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	color: #f4d6c2;
+	background-color: #000;
+	font-family: Arial, Helvetica, Verdana, and Trebuchet, sans-serif;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 800px;
+  height: 433px;
+	margin: 25px auto;
+	background: url("../images/kissykissy.jpg") no-repeat;
+  background-size: 100%;
+}
+
+#welcome {
+  font-family: "Didot LT Std Roman";
+  font-size: 6em;
+  text-align: center;
+}
+
+#content {
+  font-size: 2em;
+}
+
+div.formrow {
+	width: 75%;
+  padding-left: 25%;
+	margin: 25px auto;
+}
+form label {
+	width: 400px;
+	display: inline-block;
+}
+form input[type="text"], form input[type="password"] {
+	width: 400px;
+	padding: 1px 3px;
+	color: #000;
+	background-color:#f4d6c2;
+	border: 1px solid #3c3c3c;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+form input[type="checkbox"] + label {
+	display: inline-block;
+  font-size: .75em;
+}
+form a {
+	margin-right: 25px;
+	color: #f4d6c2;
+	text-decoration: none;
+  font-size: .5em;
+}
+form a:hover {
+	text-decoration: underline;
+}
+form input[type="submit"] {
+	width: 400px;
+  height: 75px;
+  font-size: 1em;
+}
+
+.recaptcha_only_if_image, .recaptcha_only_if_audio {
+	font-size: 10px;
+}

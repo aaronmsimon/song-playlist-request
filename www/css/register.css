@@ -1,0 +1,29 @@
+#content {
+  margin-top: 50px;
+}
+.reg {
+  width: 390px;
+  height: 800px;
+  display: inline-block;
+  margin: 0;
+  float: left;
+}
+#owen-squat {
+  width: 382px;
+  height: 715px;
+  background: url('../images/register.jpg') no-repeat top center;
+}
+
+#regform * {
+  display: block;
+}
+
+.reg_input {
+  margin-bottom: 50px;
+}
+
+#register_button {
+  width: 375px;
+  height: 75px;
+  font-size: 1em;
+}

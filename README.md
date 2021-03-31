@@ -1,1 +1,5 @@
-# song-playlist-request
+## Song Playlist and Requests
+
+This app was created to support a wedding during the COVID-19 Pandemic. The wedding couple hosted a live singer who wanted to take requests but didn't want to have people close to him in order to adequately socially distance. This web application allowed for family and friends to register for the site, request songs, and have the singer remove songs when they were performed by marking them as played. To ensure consistency in the output, the songs were validated through a search via Spotify's API and results and the playlist displayed those values including albumn cover art. The design was optimized for viewing on mobile devices since that was the main way this was to be used.
+
+The playlist served as a keepsake for requests, as well! The couple was able to keep the list of songs, whom they were requested by, and the time when they were played by way of this app.

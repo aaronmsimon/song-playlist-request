@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-color: #f4d6c2;
+}
+.hidden {
+  display: none;
+}
+.blackfont {
+  color: #000;
+}
+.greyfont {
+  color: lightgray;
+}
+.float-container {
+  overflow: hidden;
+}
+#allwrapper {
+  height: 100%;
+  background-image: url('https://d3t14gfu9ehll4.cloudfront.net/themes/934c165b-41b7-45f3-9b57-87ac25be0f46/undefined_UAf5O5Y.png');
+  background-position: center top, left top;
+  background-repeat: no-repeat;
+  background-size: 75% auto;
+}
+#center {
+  margin: 0 auto;
+  width: 90%;
+}
+#content {
+  padding-bottom: 50px;
+}
+#title {
+  padding-top: 12%;
+  font-family: "Didot LT Std Roman";
+  font-size: 5em;
+  text-align: center;
+}
+#title p {
+  margin: 0;
+}
+#nav {
+  margin: 25px auto;
+  padding: 0;
+  text-align: center;
+  font-size: 3em;
+}
+#nav li {
+  margin: 0 10px;
+  list-style: none;
+  display: inline-block;
+}
+#nav a {
+  font-family: "MrsEavesRoman Regular";
+  text-decoration: none;
+  color: #000;
+}
+#nav a:hover {
+  color: #e28b78;
+}
+
+#searchform {
+  text-align: center;
+}
+#searchform * {
+  font-size: 3em;
+}
+.track-area {
+  margin: 5% 0;
+}
+.track {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.track img {
+}
+.trackinfo {
+  margin-left: 25px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 3.5em;
+}
+.track .preview {
+  text-decoration: none;
+  color: #e28b78;
+  font-size: .75em;
+}
+.requestedby {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+.button-area {
+  margin-top: 10px;
+}
+.button-area a {
+  font-size: .5em;
+}
+
+.search-nav {
+  display: inline-block;
+}
+#prev {
+  padding: .5em;
+  font-size: 5em;
+}
+#next {
+  padding: .5em;
+  font-size: 5em;
+}
+#search-nav-prev {
+  float: left;
+}
+#search-nav-next {
+  float: right;
+}
+
+#user {color: #e28b78;}
+.loginout {text-decoration: none;color: #e28b78;}
+.loginout:hover {font-weight: bold;}
